@@ -3,13 +3,11 @@ using System.Collections;
 
 public class Cube : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
+    void OnEnable() {
         Debug.Log("Hello GitHub!");
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+    }
+
+    // Update is called once per frame
+    void Update () {
+    }
 }
