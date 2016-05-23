@@ -7,6 +7,7 @@ public class Cube : MonoBehaviour {
         Debug.Log("Hello GitHub!");
     }
 
+
     // Update is called once per frame
     void Update () {
     }
