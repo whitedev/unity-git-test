@@ -19,8 +19,6 @@ public class Builder {
 
 //        PlayerSettings.bundleIdentifier = "com.unity.app";
 //        PlayerSettings.statusBarHidden = true;
-        PlayerSettings.keystorePass = "ttt12345";
-        PlayerSettings.keyaliasPass = "ttt12345";
         BuildPipeline.BuildPlayer( 
             allScenes.ToArray(),
             "app.apk",
