@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Cube : MonoBehaviour {
 
-    void Start() {
+    void OnEnable() {
         Debug.Log("Hello GitHub!");
     }
 
